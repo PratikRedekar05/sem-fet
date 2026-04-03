@@ -1,46 +1,47 @@
+<!DOCTYPE html>
 <html>
-<head>
-<style>
- table, th, td {
-  border: 1px solid black;
+  <head>
+    <title>HTML TABLES</title>
+  </head>
+  <style>
+table, th, td {
+  border:1px solid black;
+    text-align: center;
+  th {
+  background-color: #FDF6EC;
+}
 }
 </style>
-</head>
-<body>
-
-<h2>Table With Border</h2>
-<table style="width:100%">
-  <table>
-    <tr>
-      <th>project name</th>
-      <th>status</th>
-      <th>deadline</th>
-    </tr>
-    <tr>
-      <td>front-end technology</td>
-      <td>in progress</td>
-      <td>April 10,2026</td>
-    </tr>
-    <tr>
-      <td>operating system</td>
-      <td>completed</td>
-      <td>January 12,2026</td>
-    </tr>  
-    <tr>
-      <td>data algorithms</td>
-      <td>pending</td>
-      <td>January 26,2026</td>
-    </tr>
-    <tr>
-      <td>java programing</td>
-      <td>completed</td>
-      <td>January 21,2026</td>
-    </tr>
-    <tr>
-      <td>maths</td>
-      <td>not submitted</td>
-      <td>April 5,2026</td>
-    </tr>
+  
+  <body>
+    <h2> A Basic HTML table</h2>
+    <table style="width:100%">
+      <tr>
+        <th>Courses</th>
+        <th>Status</th>
+        <th>Deadline</th>
+      </tr>
+      <tr>
+        <td>Operating system</td>
+        <td>Submitted</td>
+        <td>July 31,2026</td>
+      </tr>
+      <tr>
+        <td>Embedded System design</td>
+        <td>In progress</td>
+        <td>July 31,2026</td>
+      </tr>
+      <tr>
+        <td>Java programming</td>
+        <td>In progress</td>
+        <td>July 31,2026</td>
+      </tr>
+      <tr>
+        <td>DAA</td>
+        <td>In progress</td>
+        <td>July 31,2026</td>
+      </tr>
+    </table>
+    <a href="https://pavanmradder.github.io/SEM_4-FET/">Home page</a>
   </body>
-  </table>
 </html>
