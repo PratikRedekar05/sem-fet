@@ -56,6 +56,19 @@
   }
 </style>
 
+<script>
+  // Runs when page loads
+  window.onload = function() {
+    let name = prompt("Enter your name:");
+
+    if (name == null || name == "") {
+      alert("Welcome visitor!");
+    } else {
+      alert("Welcome " + name + "! Glad to see you here 😊");
+    }
+  };
+</script>
+
 </head>
 
 <body>
@@ -98,15 +111,6 @@
     Without CSS
   </a>
 </div>
-
-<!-- ✅ JavaScript added here -->
-<script>
-  alert("Welcome to Pratik Redekar's webpage!");
-
-  let status = prompt("What is your current status? (Student / Working / Other)");
-
-  alert("Your current status is: " + status);
-</script>
 
 </body>
 </html>
