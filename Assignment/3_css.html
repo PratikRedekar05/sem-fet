@@ -1,1 +1,99 @@
-a
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Gallery Card</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+
+        .card {
+            background: #fff;
+            width: 320px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        h1 {
+            color: #444;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 15px 0;
+        }
+
+        a button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        a button:hover {
+            background: #5a67d8;
+        }
+
+        iframe {
+            margin-top: 20px;
+            border-radius: 10px;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="card">
+        <h1>Project Gallery</h1>
+
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+             alt="Project Screenshot">
+
+        <h2>SEM 4 FET Project</h2>
+
+        <p>
+            This repository contains my Semester 4 FET (Front-End Technologies)
+            work including HTML, CSS, and JavaScript assignments and projects.
+        </p>
+
+        <a href="https://github.com/kiranayk5-png/sem4-fet.git" target="_blank">
+            <button>View Source</button>
+        </a>
+    </div>
+
+    <h3 style="color:white; margin-top:30px;">Wikipedia Preview</h3>
+    <iframe src="https://www.wikipedia.org" width="320" height="180"></iframe>
+
+</body>
+</html>
