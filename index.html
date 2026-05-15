@@ -1,23 +1,298 @@
-<html>
-  <body>
-    <center>
-    <H2>Welcome to Home page</H2>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/one.html">Assignment 1</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/two.html">Assignment 2</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/five.html">Assignment 3</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/seven.html">Assignment 4</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/1_js.html">Assignment 5</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_html_css/list_css.html">Assignment 6</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/one_js_css.html">Assignment 7</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/five_css_js.html">Assignment 8</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/form_css_js.html">Assignment 9</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/dropdown.html">Assignment 10</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/z_index.html">Assignment 11</a><br><br>
-    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/sk_while.html">Assignment 12</a><br><br>
-     <a href="https://pratikredekar05.github.io/sem-fet/Assignment/three.html">Assignment overview of one and two </a><br><br>
-       <a href="https://pratikredekar05.github.io/sem-fet/Assignment/four.html">Assignment youtube</a><br><br>
-       <a href="https://pratikredekar05.github.io/sem-fet/Assignment/six.html">Assignment basic html table</a><br><br>
-  </center>
-  </body>
-</html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignments Home Page</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg,#1e3c72,#2a5298);
+            min-height:100vh;
+            padding:40px;
+            color:white;
+        }
+
+        .container{
+            max-width:1200px;
+            margin:auto;
+        }
+
+        .title{
+            text-align:center;
+            margin-bottom:40px;
+        }
+
+        .title h1{
+            font-size:45px;
+            margin-bottom:10px;
+        }
+
+        .title p{
+            font-size:18px;
+            color:#dbe9ff;
+        }
+
+        .section{
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius:20px;
+            padding:30px;
+            margin-bottom:40px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .section h2{
+            margin-bottom:25px;
+            text-align:center;
+            color:#fff;
+            font-size:30px;
+        }
+
+        .assignment-grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            padding:20px;
+            text-align:center;
+            transition:0.3s;
+            box-shadow:0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .card:hover{
+            transform:translateY(-8px) scale(1.03);
+            background:#f0f7ff;
+        }
+
+        .card a{
+            text-decoration:none;
+            color:#1e3c72;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        .btn{
+            margin-top:15px;
+            padding:10px 18px;
+            border:none;
+            border-radius:10px;
+            background:#1e3c72;
+            color:white;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#2a5298;
+        }
+
+        footer{
+            text-align:center;
+            margin-top:30px;
+            color:#dbe9ff;
+        }
+
+        @media(max-width:600px){
+            .title h1{
+                font-size:32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="title">
+        <h1>✨ My Assignment Portal ✨</h1>
+        <p>Frontend Web Development Assignments</p>
+    </div>
+
+    <!-- First 12 Assignments -->
+    <div class="section">
+        <h2>📘  Assignments</h2> 
+
+        <div class="assignment-grid">
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/one.html">
+                    Assignment 1
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/two.html">
+                    Assignment 2
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/five.html">
+                    Assignment 3
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/seven.html">
+                    Assignment 4
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/1_js.html">
+                    Assignment 5
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_html_css/list_css.html">
+                    Assignment 6
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/one_js_css.html">
+                    Assignment 7
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/five_css_js.html">
+                    Assignment 8
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/form_css_js.html">
+                    Assignment 9
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/dropdown.html">
+                    Assignment 10
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/z_index.html">
+                    Assignment 11
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/with_css_js.html/sk_while.html">
+                    Assignment 12
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Remaining Assignments -->
+    <div class="section">
+        <h2>📂 Other Assignments</h2>
+
+        <div class="assignment-grid">
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/three.html">
+                    Overview of One & Two
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/four.html">
+                    YouTube Assignment
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+            <div class="card">
+                <a href="https://pratikredekar05.github.io/sem-fet/Assignment/six.html">
+                    HTML Table Assignment
+                </a>
+                <br>
+                <button class="btn">Open</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <h3>🚀 Created by Pratik</h3>
+    </footer>
+
+</div>
+
+<script>
+    // Button Click Animation
+    const buttons = document.querySelectorAll(".btn");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", function () {
+
+            this.innerText = "Opening...";
+            this.style.background = "green";
+
+            setTimeout(() => {
+                this.innerText = "Open";
+                this.style.background = "#1e3c72";
+            }, 1500);
+
+            // Open the link
+            window.location.href =
+                this.parentElement.querySelector("a").href;
+        });
+    });
+
+    // Welcome Alert
+    window.onload = () => {
+        setTimeout(() => {
+            alert("Welcome to My Assignment Portal 🚀");
+        }, 500);
+    };
+</script>
+
+</body>
+</html>    
