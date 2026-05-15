@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pratik Redekar</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      text-align: center;
+      padding: 40px;
+    }
+
+    .card{
+      background: white;
+      padding: 25px;
+      width: 60%;
+      margin: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h1{
+      color: #333;
+    }
+
+    p{
+      color: #555;
+      line-height: 1.5;
+    }
+
+    a, button{
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 18px;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      background: #0077b6;
+      color: white;
+      cursor: pointer;
+    }
+
+    a:hover, button:hover{
+      background: #023e8a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Pratik Redekar</h1>
+    <h3>CS Student at MITE</h3>
+
+    <p>
+      I work with Java, Python, OOP, DSA and Web Development.
+      Interested in Cryptography, Steganography & Blockchain.
+    </p>
+
+    <button onclick="showMsg()">Click Me</button>
+    <p id="msg"></p>
+
+    <a href="https://pratikredekar05.github.io/sem-fet/">Home</a>
+    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/one_css.html">CSS Page</a>
+    <a href="https://pratikredekar05.github.io/sem-fet/Assignment/one_css_js.html">CSS + JS</a>
+  </div>
+
+  <script>
+    function showMsg(){
+      document.getElementById("msg").innerHTML =
+      "Welcome to my portfolio 😊";
+    }
+  </script>
+
+</body>
+</html>
